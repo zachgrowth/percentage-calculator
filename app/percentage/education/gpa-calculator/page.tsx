@@ -11,7 +11,7 @@ export default function GpaCalculatorPage() {
           <h1 className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/70">
             GPA Calculator
           </h1>
-          <p className="text-lg text-muted-foreground">
+          <p className="text-lg text-foreground">
             Calculate your term GPA, cumulative GPA, and plan your academic targets
           </p>
         </div>
@@ -26,7 +26,7 @@ export default function GpaCalculatorPage() {
             <div className="grid gap-4">
               <div className="p-4 bg-muted rounded-lg">
                 <h3 className="font-medium mb-2">Letter Grades to GPA Points</h3>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm text-muted-foreground">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm text-foreground">
                   <div>A+ = 4.0</div>
                   <div>B+ = 3.3</div>
                   <div>C+ = 2.3</div>
@@ -46,7 +46,7 @@ export default function GpaCalculatorPage() {
 
           <Card className="p-6">
             <h2 className="text-2xl font-semibold mb-4">GPA Calculation Formula</h2>
-            <div className="space-y-4 text-muted-foreground">
+            <div className="space-y-4 text-foreground">
               <p>GPA = Sum of (Credit Hours × Grade Points) / Total Credit Hours</p>
               <div className="p-4 bg-muted rounded-lg">
                 <h3 className="font-medium mb-2">Example</h3>

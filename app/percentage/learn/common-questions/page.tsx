@@ -10,7 +10,7 @@ export default function CommonQuestions() {
           <h1 className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/70">
             Common Questions About Percentages
           </h1>
-          <p className="text-lg text-muted-foreground">
+          <p className="text-lg text-foreground">
             Find answers to frequently asked questions about percentage calculations
           </p>
         </div>
@@ -21,14 +21,14 @@ export default function CommonQuestions() {
             <div className="space-y-4">
               <div className="p-4 bg-muted rounded-lg">
                 <h3 className="font-medium mb-2">What is a percentage?</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground">
                   A percentage is a number expressed as a fraction of 100. The word comes from the Latin "per centum" meaning "out of 100."
                 </p>
               </div>
               
               <div className="p-4 bg-muted rounded-lg">
                 <h3 className="font-medium mb-2">Why do we use percentages?</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground">
                   Percentages make it easier to compare relative amounts and express parts of a whole in a standardized way.
                 </p>
               </div>
@@ -40,14 +40,14 @@ export default function CommonQuestions() {
             <div className="space-y-4">
               <div className="p-4 bg-muted rounded-lg">
                 <h3 className="font-medium mb-2">How do I calculate a tip?</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground">
                   To calculate a 15% tip on a $100 bill, multiply 100 by 0.15 (or 15/100) = $15
                 </p>
               </div>
               
               <div className="p-4 bg-muted rounded-lg">
                 <h3 className="font-medium mb-2">How do I calculate a discount?</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground">
                   For a 20% discount on $80, multiply 80 by 0.20 = $16 discount. Subtract from original price: $80 - $16 = $64
                 </p>
               </div>
@@ -59,14 +59,14 @@ export default function CommonQuestions() {
             <div className="space-y-4">
               <div className="p-4 bg-muted rounded-lg">
                 <h3 className="font-medium mb-2">What is compound percentage?</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground">
                   Compound percentage occurs when percentages are applied successively, such as in compound interest calculations.
                 </p>
               </div>
               
               <div className="p-4 bg-muted rounded-lg">
                 <h3 className="font-medium mb-2">How do I handle percentage points?</h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-foreground">
                   Percentage points represent the arithmetic difference between two percentages, rather than the relative change.
                 </p>
               </div>

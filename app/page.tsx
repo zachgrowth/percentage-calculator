@@ -142,7 +142,7 @@ export default function Home() {
           <h1 className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/70">
             Advanced Calculator Suite
           </h1>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-foreground max-w-2xl mx-auto">
             Professional calculation tools for percentages, finances, and statistics.
             Fast, accurate, and easy to use.
           </p>
@@ -161,7 +161,7 @@ export default function Home() {
                       </div>
                       <div>
                         <CardTitle className="text-xl">{calc.title}</CardTitle>
-                        <p className="text-sm text-muted-foreground mt-1">
+                        <p className="text-sm text-foreground mt-1">
                           {calc.description}
                         </p>
                       </div>
@@ -178,13 +178,13 @@ export default function Home() {
           <div className="grid gap-4">
             <div className="p-4 bg-muted rounded-lg">
               <h3 className="font-medium mb-2">Business Analysis Package</h3>
-              <p className="text-sm text-muted-foreground">
+              <p className="text-sm text-foreground">
                 ROI Calculator + Markup Calculator + Tax Calculator
               </p>
             </div>
             <div className="p-4 bg-muted rounded-lg">
               <h3 className="font-medium mb-2">Academic Tools Suite</h3>
-              <p className="text-sm text-muted-foreground">
+              <p className="text-sm text-foreground">
                 Grade Calculator + GPA Calculator
               </p>
             </div>
