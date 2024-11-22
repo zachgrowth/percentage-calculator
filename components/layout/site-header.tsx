@@ -38,7 +38,7 @@ export function SiteHeader() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-            <CalculatorIcon className="h-6 w-6 text-primary" />
+            <CalculatorIcon className="h-6 w-6 text-primary" aria-hidden="true" />
             <span className="font-semibold text-lg text-foreground">calculatorhub</span>
           </Link>
 
@@ -72,7 +72,7 @@ export function SiteHeader() {
                 rel="noopener noreferrer"
                 aria-label="View source code on GitHub"
               >
-                <Github className="h-5 w-5" />
+                <Github className="h-5 w-5" aria-hidden="true" />
                 <span className="sr-only">View source code on GitHub</span>
               </a>
             </Button>
