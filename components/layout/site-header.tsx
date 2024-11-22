@@ -37,9 +37,9 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
-          <Link href="/" className="flex items-center gap-2">
+          <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <CalculatorIcon className="h-6 w-6 text-primary" />
-            <span className="font-semibold text-lg">calculatorhub</span>
+            <span className="font-semibold text-lg text-foreground">calculatorhub</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-6">
@@ -48,10 +48,10 @@ export function SiteHeader() {
                 key={item.href}
                 href={item.href}
                 className={cn(
-                  "text-sm font-medium transition-colors hover:text-primary",
+                  "text-sm font-medium transition-all hover:text-primary hover:scale-105",
                   pathname?.startsWith(item.href)
-                    ? "text-primary"
-                    : "text-muted-foreground"
+                    ? "text-primary font-semibold"
+                    : "text-foreground"
                 )}
               >
                 {item.title}
@@ -60,9 +60,20 @@ export function SiteHeader() {
           </nav>
 
           <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon" asChild>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <Button 
+              variant="outline" 
+              size="icon" 
+              className="hover:bg-primary hover:text-primary-foreground transition-colors"
+              asChild
+            >
+              <a 
+                href="https://github.com/zachgrowth/percentage-calculator" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="View source code on GitHub"
+              >
                 <Github className="h-5 w-5" />
+                <span className="sr-only">View source code on GitHub</span>
               </a>
             </Button>
             <ModeToggle />
